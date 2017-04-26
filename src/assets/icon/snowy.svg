@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="130px" height="120px" viewBox="0 0 130 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>snowy</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Weather-Icons" transform="translate(-117.000000, -239.000000)">
+            <g id="snowy" transform="translate(117.000000, 239.000000)">
+                <g id="clouds">
+                    <path d="M63.5,85 C86.972103,85 106,65.972103 106,42.5 C106,19.027897 86.972103,0 63.5,0 C40.027897,0 21,19.027897 21,42.5 C21,65.972103 40.027897,85 63.5,85 Z" id="Oval-1-copy-3" fill="#3FA7C9" opacity="0.6"></path>
+                    <path d="M32,86 C49.6731129,86 64,71.6731129 64,54 C64,36.3268871 49.6731129,22 32,22 C14.3268871,22 0,36.3268871 0,54 C0,71.6731129 14.3268871,86 32,86 Z" id="Oval-1-copy-5" fill="#9BDFF8" opacity="0.7"></path>
+                    <path d="M106.5,83 C119.478692,83 130,72.4786923 130,59.5 C130,46.5213077 119.478692,36 106.5,36 C93.5213077,36 83,46.5213077 83,59.5 C83,72.4786923 93.5213077,83 106.5,83 Z" id="Oval-1-copy-4" fill="#78D5BA" opacity="0.5"></path>
+                </g>
+                <g id="snows" transform="translate(17.000000, 52.000000)">
+                    <path d="M18,37 C20.2091391,37 22,35.2091391 22,33 C22,30.7908609 20.2091391,29 18,29 C15.7908609,29 14,30.7908609 14,33 C14,35.2091391 15.7908609,37 18,37 Z" id="Oval-14-copy-4" fill="#9BDFF8" transform="translate(18.000000, 33.000000) rotate(-53.000000) translate(-18.000000, -33.000000) "></path>
+                    <circle id="Oval-14-copy-6" fill="#9BDFF8" transform="translate(6.000000, 48.000000) rotate(-53.000000) translate(-6.000000, -48.000000) " cx="6" cy="48" r="4"></circle>
+                    <circle id="Oval-14-copy-4" fill="#FFFFFF" transform="translate(29.000000, 19.000000) rotate(-53.000000) translate(-29.000000, -19.000000) " cx="29" cy="19" r="4"></circle>
+                    <circle id="Oval-14-copy-5" fill="#FFFFFF" transform="translate(47.000000, 19.000000) rotate(-53.000000) translate(-47.000000, -19.000000) " cx="47" cy="19" r="4"></circle>
+                    <circle id="Oval-14-copy-8" fill="#FFFFFF" transform="translate(57.000000, 6.000000) rotate(-53.000000) translate(-57.000000, -6.000000) " cx="57" cy="6" r="4"></circle>
+                    <circle id="Oval-14-copy-6" fill="#FFFFFF" transform="translate(56.000000, 32.000000) rotate(-53.000000) translate(-56.000000, -32.000000) " cx="56" cy="32" r="4"></circle>
+                    <circle id="Oval-14-copy-9" fill="#FFFFFF" transform="translate(67.000000, 18.000000) rotate(-53.000000) translate(-67.000000, -18.000000) " cx="67" cy="18" r="4"></circle>
+                    <circle id="Oval-14-copy-7" fill="#9BDFF8" transform="translate(63.000000, 49.000000) rotate(-53.000000) translate(-63.000000, -49.000000) " cx="63" cy="49" r="4"></circle>
+                    <circle id="Oval-14-copy-9" fill="#9BDFF8" transform="translate(52.000000, 64.000000) rotate(-53.000000) translate(-52.000000, -64.000000) " cx="52" cy="64" r="4"></circle>
+                    <circle id="Oval-14-copy-7" fill="#9BDFF8" transform="translate(74.000000, 35.000000) rotate(-53.000000) translate(-74.000000, -35.000000) " cx="74" cy="35" r="4"></circle>
+                    <circle id="Oval-14-copy-10" fill="#FFFFFF" transform="translate(85.000000, 21.000000) rotate(-53.000000) translate(-85.000000, -21.000000) " cx="85" cy="21" r="4"></circle>
+                    <circle id="Oval-14-copy-5" fill="#9BDFF8" transform="translate(36.000000, 33.000000) rotate(-53.000000) translate(-36.000000, -33.000000) " cx="36" cy="33" r="4"></circle>
+                    <circle id="Oval-14-copy-7" fill="#9BDFF8" transform="translate(26.000000, 46.000000) rotate(-53.000000) translate(-26.000000, -46.000000) " cx="26" cy="46" r="4"></circle>
+                    <circle id="Oval-14-copy-6" fill="#9BDFF8" transform="translate(46.000000, 45.000000) rotate(-53.000000) translate(-46.000000, -45.000000) " cx="46" cy="45" r="4"></circle>
+                    <circle id="Oval-14-copy-8" fill="#9BDFF8" transform="translate(34.000000, 61.000000) rotate(-53.000000) translate(-34.000000, -61.000000) " cx="34" cy="61" r="4"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

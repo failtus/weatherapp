@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="136px" height="130px" viewBox="0 0 136 130" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>thunderstorm</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Weather-Icons" transform="translate(-114.000000, -388.000000)">
+            <g id="thunderstorm" transform="translate(114.000000, 388.000000)">
+                <g id="lightning2" transform="translate(86.500000, 90.500000) rotate(10.000000) translate(-86.500000, -90.500000) translate(71.000000, 69.000000)" fill="#FFEC78" opacity="0.8">
+                    <rect id="Rectangle-27-copy-2" transform="translate(23.000000, 14.000000) rotate(-160.000000) translate(-23.000000, -14.000000) " x="19" y="1" width="8" height="26" rx="2"></rect>
+                    <rect id="Rectangle-27-copy-2" transform="translate(8.000000, 29.000000) rotate(-160.000000) translate(-8.000000, -29.000000) " x="4" y="16" width="8" height="26" rx="2"></rect>
+                    <rect id="Rectangle-27-copy-2" transform="translate(16.000000, 22.000000) rotate(-210.000000) translate(-16.000000, -22.000000) " x="12" y="14" width="8" height="16" rx="2"></rect>
+                </g>
+                <g id="rain-drops" transform="translate(24.000000, 71.000000)">
+                    <rect id="Rectangle-27-copy-3" fill="#2E325E" opacity="0.8" transform="translate(37.500000, 29.000000) rotate(-150.000000) translate(-37.500000, -29.000000) " x="35" y="21" width="5" height="16" rx="2"></rect>
+                    <rect id="Rectangle-27-copy-3" fill="#2E325E" opacity="0.8" transform="translate(92.500000, 8.000000) rotate(-150.000000) translate(-92.500000, -8.000000) " x="90" y="0" width="5" height="16" rx="2"></rect>
+                    <rect id="Rectangle-27-copy-5" fill="#4599BB" transform="translate(57.500000, 47.000000) rotate(-150.000000) translate(-57.500000, -47.000000) " x="55" y="39" width="5" height="16" rx="2"></rect>
+                    <rect id="Rectangle-27-copy-5" fill="#4599BB" transform="translate(77.500000, 31.000000) rotate(-150.000000) translate(-77.500000, -31.000000) " x="75" y="23" width="5" height="16" rx="2"></rect>
+                    <rect id="Rectangle-27-copy-6" fill="#4599BB" transform="translate(15.500000, 42.000000) rotate(-150.000000) translate(-15.500000, -42.000000) " x="13" y="34" width="5" height="16" rx="2"></rect>
+                    <rect id="Rectangle-27-copy-6" fill="#4599BB" transform="translate(6.500000, 17.000000) rotate(-150.000000) translate(-6.500000, -17.000000) " x="4" y="9" width="5" height="16" rx="2"></rect>
+                    <rect id="Rectangle-27-copy-7" fill="#4599BB" transform="translate(36.500000, 51.000000) rotate(-150.000000) translate(-36.500000, -51.000000) " x="34" y="43" width="5" height="16" rx="2"></rect>
+                </g>
+                <g id="clouds">
+                    <path d="M69.5,85 C92.972103,85 112,65.972103 112,42.5 C112,19.027897 92.972103,0 69.5,0 C46.027897,0 27,19.027897 27,42.5 C27,65.972103 46.027897,85 69.5,85 Z" id="Oval-1-copy-2" fill="#2E325E" opacity="0.9"></path>
+                    <path d="M112.5,82 C125.478692,82 136,71.4786923 136,58.5 C136,45.5213077 125.478692,35 112.5,35 C99.5213077,35 89,45.5213077 89,58.5 C89,71.4786923 99.5213077,82 112.5,82 Z" id="Oval-1-copy-3" fill="#2E325E" opacity="0.7"></path>
+                    <path d="M32,85 C49.6731129,85 64,70.6731129 64,53 C64,35.3268871 49.6731129,21 32,21 C14.3268871,21 0,35.3268871 0,53 C0,70.6731129 14.3268871,85 32,85 Z" id="Oval-1-copy-4" fill="#6C6F8E" opacity="0.7"></path>
+                </g>
+                <g id="lightning1" transform="translate(38.000000, 40.000000)" fill="#3FA7C9" opacity="0.8">
+                    <rect id="Rectangle-27-copy-2" transform="translate(42.000000, 19.500000) rotate(-150.000000) translate(-42.000000, -19.500000) " x="36" y="0" width="12" height="39" rx="2"></rect>
+                    <rect id="Rectangle-27-copy-2" transform="translate(15.000000, 36.500000) rotate(-150.000000) translate(-15.000000, -36.500000) " x="9" y="17" width="12" height="39" rx="2"></rect>
+                    <rect id="Rectangle-27-copy-2" transform="translate(29.000000, 27.500000) rotate(-200.000000) translate(-29.000000, -27.500000) " x="23" y="14" width="12" height="27" rx="2"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

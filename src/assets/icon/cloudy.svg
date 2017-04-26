@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="156px" height="95px" viewBox="0 0 156 95" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>cloudy</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Weather-Icons" transform="translate(-323.000000, -260.000000)">
+            <g id="cloudy" transform="translate(323.000000, 260.000000)">
+                <g id="cloud-back" opacity="0.7">
+                    <path d="M101,84 C118.673113,84 133,69.8969705 133,52.5 C133,35.1030295 118.673113,21 101,21 C83.3268871,21 69,35.1030295 69,52.5 C69,69.8969705 83.3268871,84 101,84 Z" id="Oval-1-copy-4" fill="#959CB9"></path>
+                    <path d="M63.5,84 C86.972103,84 106,65.1959606 106,42 C106,18.8040394 86.972103,0 63.5,0 C40.027897,0 21,18.8040394 21,42 C21,65.1959606 40.027897,84 63.5,84 Z" id="Oval-1-copy-2" fill="#2E325E"></path>
+                    <path d="M23.5,84 C36.4786923,84 47,73.4786923 47,60.5 C47,47.5213077 36.4786923,37 23.5,37 C10.5213077,37 0,47.5213077 0,60.5 C0,73.4786923 10.5213077,84 23.5,84 Z" id="Oval-1-copy-3" fill="#A6AFC7"></path>
+                </g>
+                <g id="cloud-front" transform="translate(49.000000, 39.000000)">
+                    <g id="Oval-55-+-Oval-55-+-Oval-55" fill="#FFFFFF">
+                        <ellipse id="Oval-55" cx="77.5" cy="28" rx="29.5" ry="28"></ellipse>
+                        <ellipse id="Oval-55" cx="20.5" cy="36.5" rx="20.5" ry="19.5"></ellipse>
+                        <ellipse id="Oval-55" cx="47" cy="30.5" rx="27" ry="25.5"></ellipse>
+                    </g>
+                    <g id="Oval-1-copy-4-+-Oval-1-copy-2-+-Oval-1-copy-3" transform="translate(3.000000, 2.000000)">
+                        <path d="M75,52 C89.911689,52 102,40.3594042 102,26 C102,11.6405958 89.911689,0 75,0 C60.088311,0 48,11.6405958 48,26 C48,40.3594042 60.088311,52 75,52 Z" id="Oval-1-copy-4" fill="#474A82" opacity="0.4"></path>
+                        <path d="M44.5,52 C58.030977,52 69,41.4786923 69,28.5 C69,15.5213077 58.030977,5 44.5,5 C30.969023,5 20,15.5213077 20,28.5 C20,41.4786923 30.969023,52 44.5,52 Z" id="Oval-1-copy-2" fill="#818DB0" opacity="0.7"></path>
+                        <path d="M18,53 C27.941126,53 36,44.941126 36,35 C36,25.058874 27.941126,17 18,17 C8.05887401,17 0,25.058874 0,35 C0,44.941126 8.05887401,53 18,53 Z" id="Oval-1-copy-3" fill="#76ABCF" opacity="0.7"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

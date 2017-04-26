@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="135px" height="112px" viewBox="0 0 135 112" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>cloudy night</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Weather-Icons" transform="translate(-552.000000, -404.000000)">
+            <g id="cloudy-night" transform="translate(552.000000, 367.000000)">
+                <path d="M30.3524992,37.7613598 C12.7994162,42.9876079 0,59.2490712 0,78.5 C0,101.972103 19.027897,121 42.5,121 C55.2288684,121 66.6507542,115.404146 74.4398123,106.538283 C48.2295286,103.0829 28,80.6538812 28,53.5 C28,48.0225442 28.8231513,42.7373459 30.3524992,37.7613598 Z" id="moon" fill="#FFEC78" opacity="0.7"></path>
+                <g id="clouds" transform="translate(2.000000, 64.000000)">
+                    <path d="M63.5,85 C86.972103,85 106,65.972103 106,42.5 C106,19.027897 86.972103,0 63.5,0 C40.027897,0 21,19.027897 21,42.5 C21,65.972103 40.027897,85 63.5,85 Z" id="Oval-1-copy-2" fill="#081B5A" opacity="0.8"></path>
+                    <path d="M23.5,84 C36.4786923,84 47,73.4786923 47,60.5 C47,47.5213077 36.4786923,37 23.5,37 C10.5213077,37 0,47.5213077 0,60.5 C0,73.4786923 10.5213077,84 23.5,84 Z" id="Oval-1-copy-3" fill="#293C70" opacity="0.7"></path>
+                    <path d="M101.5,85 C118.89697,85 133,70.6731129 133,53 C133,35.3268871 118.89697,21 101.5,21 C84.1030295,21 70,35.3268871 70,53 C70,70.6731129 84.1030295,85 101.5,85 Z" id="Oval-1-copy-4" fill="#112E61" opacity="0.7"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

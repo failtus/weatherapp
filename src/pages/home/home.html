@@ -1,0 +1,49 @@
+<ion-content padding>
+    <!--<div *ngIf="currentWeather.WeatherText">
+        <p>{{currentWeather.WeatherText}}</p>
+        <p>{{currentWeather.Temperature.Metric.Value}}C</p>
+    </div>-->
+    <!-- 		Clear night -->
+    <div class="weather-card" [ngClass]="weatherClass">
+        <div class="top">
+            <div class="wrapper">
+                <div class="mynav">
+                    <a href="javascript:;"><span class="lnr lnr-cog"></span></a>
+                </div>
+                <h1 class="heading">Clear night</h1>
+                <h3 class="location">Dhaka, Bangladesh</h3>
+                <p class="temp" *ngIf="celcious">
+                    <span class="temp-value">{{currentWeather.main.temp}}</span>
+                    <span class="deg">0</span>
+                    <a (click)="celcious = false"><span class="temp-type">C</span></a>
+                </p>
+                <p class="temp" *ngIf="!celcious">
+                    <span class="temp-value">{{currentWeather.main.temp | CelToFah}}</span>
+                    <span class="deg">0</span>
+                    <a (click)="celcious = true"><span class="temp-type">F</span></a>
+                </p>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="wrapper">
+                <ul class="forecast">
+                    <a href="javascript:;"><span class="lnr lnr-chevron-up go-up"></span></a>
+                    <li class="active">
+                        <span class="date">Yesterday</span>
+                        <span class="lnr lnr-moon condition">
+									<span class="temp">23<span class="deg">0</span><span class="temp-type">C</span></span>
+                        </span>
+                    </li>
+                    <li>
+                        <span class="date">Tomorrow</span>
+                        <span class="lnr lnr-moon condition">
+									<span class="temp">21<span class="deg">0</span><span class="temp-type">C</span></span>
+                        </span>
+                    </li>
+                    <!-- end of li -->
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</ion-content>

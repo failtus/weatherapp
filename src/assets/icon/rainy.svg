@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="130px" height="118px" viewBox="0 0 130 118" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>rainy</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Weather-Icons" transform="translate(-554.000000, -106.000000)">
+            <g id="rainy" transform="translate(554.000000, 106.000000)">
+                <g id="clouds">
+                    <path d="M62.5,85 C85.972103,85 105,65.972103 105,42.5 C105,19.027897 85.972103,0 62.5,0 C39.027897,0 20,19.027897 20,42.5 C20,65.972103 39.027897,85 62.5,85 Z" id="Oval-1-copy-2" fill="#5496C3" opacity="0.8"></path>
+                    <path d="M32,86 C49.6731129,86 64,71.6731129 64,54 C64,36.3268871 49.6731129,22 32,22 C14.3268871,22 0,36.3268871 0,54 C0,71.6731129 14.3268871,86 32,86 Z" id="Oval-1-copy-4" fill="#474A82" opacity="0.7"></path>
+                    <path d="M106.5,84 C119.478692,84 130,73.2548347 130,60 C130,46.7451653 119.478692,36 106.5,36 C93.5213077,36 83,46.7451653 83,60 C83,73.2548347 93.5213077,84 106.5,84 Z" id="Oval-1-copy-3" fill="#3FA7C9" opacity="0.7"></path>
+                </g>
+                <g id="rain-drops" transform="translate(29.000000, 57.000000)">
+                    <rect id="Rectangle-27-copy-2" fill="#2E325E" opacity="0.8" transform="translate(46.500000, 8.000000) rotate(-150.000000) translate(-46.500000, -8.000000) " x="44" y="0" width="5" height="16" rx="2"></rect>
+                    <rect id="Rectangle-27-copy-3" fill="#2E325E" opacity="0.8" transform="translate(60.500000, 17.000000) rotate(-150.000000) translate(-60.500000, -17.000000) " x="58" y="9" width="5" height="16" rx="2"></rect>
+                    <rect id="Rectangle-27-copy-3" fill="#2E325E" opacity="0.8" transform="translate(26.500000, 13.000000) rotate(-150.000000) translate(-26.500000, -13.000000) " x="24" y="5" width="5" height="16" rx="2"></rect>
+                    <rect id="Rectangle-27-copy-4" fill="#2E325E" opacity="0.8" transform="translate(6.500000, 24.000000) rotate(-150.000000) translate(-6.500000, -24.000000) " x="4" y="16" width="5" height="16" rx="2"></rect>
+                    <rect id="Rectangle-27-copy-5" fill="#5496C3" transform="translate(30.500000, 29.000000) rotate(-150.000000) translate(-30.500000, -29.000000) " x="28" y="21" width="5" height="16" rx="2"></rect>
+                    <rect id="Rectangle-27-copy-6" fill="#5496C3" transform="translate(12.500000, 42.000000) rotate(-150.000000) translate(-12.500000, -42.000000) " x="10" y="34" width="5" height="16" rx="2"></rect>
+                    <rect id="Rectangle-27-copy-7" fill="#5496C3" transform="translate(25.500000, 53.000000) rotate(-150.000000) translate(-25.500000, -53.000000) " x="23" y="45" width="5" height="16" rx="2"></rect>
+                    <rect id="Rectangle-27-copy-8" fill="#5496C3" transform="translate(51.500000, 50.000000) rotate(-150.000000) translate(-51.500000, -50.000000) " x="49" y="42" width="5" height="16" rx="2"></rect>
+                    <rect id="Rectangle-27-copy-6" fill="#5496C3" transform="translate(43.500000, 36.000000) rotate(-150.000000) translate(-43.500000, -36.000000) " x="41" y="28" width="5" height="16" rx="2"></rect>
+                    <rect id="Rectangle-27-copy-7" fill="#5496C3" transform="translate(67.500000, 30.000000) rotate(-150.000000) translate(-67.500000, -30.000000) " x="65" y="22" width="5" height="16" rx="2"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="131px" height="131px" viewBox="0 0 131 131" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>sunny</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Weather-Icons" transform="translate(-118.000000, -84.000000)">
+            <g id="sunny" transform="translate(118.000000, 84.000000)">
+                <path d="M65.5,107 C88.4198183,107 107,88.4198183 107,65.5 C107,42.5801817 88.4198183,24 65.5,24 C42.5801817,24 24,42.5801817 24,65.5 C24,88.4198183 42.5801817,107 65.5,107 Z" id="sun-bg" fill="#FFEC78" transform="translate(65.500000, 65.500000) rotate(-270.000000) translate(-65.500000, -65.500000) "></path>
+                <g id="sun-shines" fill="#F8F18F">
+                    <rect id="Rectangle-27" transform="translate(123.000000, 64.500000) rotate(-270.000000) translate(-123.000000, -64.500000) " x="120.5" y="56.5" width="5" height="16" rx="2"></rect>
+                    <rect id="Rectangle-27" transform="translate(65.500000, 123.000000) rotate(-180.000000) translate(-65.500000, -123.000000) " x="63" y="115" width="5" height="16" rx="2"></rect>
+                    <rect id="Rectangle-27-copy" transform="translate(65.500000, 8.000000) rotate(-180.000000) translate(-65.500000, -8.000000) " x="63" y="0" width="5" height="16" rx="2"></rect>
+                    <rect id="Rectangle-27" transform="translate(24.424621, 106.424621) rotate(-135.000000) translate(-24.424621, -106.424621) " x="21.9246212" y="98.4246212" width="5" height="16" rx="2"></rect>
+                    <rect id="Rectangle-27-copy" transform="translate(106.424621, 24.424621) rotate(-135.000000) translate(-106.424621, -24.424621) " x="103.924621" y="16.4246212" width="5" height="16" rx="2"></rect>
+                    <rect id="Rectangle-27" transform="translate(106.424621, 106.424621) rotate(-225.000000) translate(-106.424621, -106.424621) " x="103.924621" y="98.4246212" width="5" height="16" rx="2"></rect>
+                    <rect id="Rectangle-27-copy" transform="translate(24.424621, 24.424621) rotate(-225.000000) translate(-24.424621, -24.424621) " x="21.9246212" y="16.4246212" width="5" height="16" rx="2"></rect>
+                    <rect id="Rectangle-27" transform="translate(8.000000, 64.500000) rotate(-90.000000) translate(-8.000000, -64.500000) " x="5.5" y="56.5" width="5" height="16" rx="2"></rect>
+                </g>
+                <path d="M62,98 C81.3299672,98 97,82.3299672 97,63 C97,43.6700328 81.3299672,28 62,28 C42.6700328,28 27,43.6700328 27,63 C27,82.3299672 42.6700328,98 62,98 Z" id="orange" fill="#FFBB5F" opacity="0.7" transform="translate(62.000000, 63.000000) rotate(-120.000000) translate(-62.000000, -63.000000) "></path>
+                <path d="M59,90 C75.5685433,90 89,76.7924009 89,60.5 C89,44.2075991 75.5685433,31 59,31 C42.4314567,31 29,44.2075991 29,60.5 C29,76.7924009 42.4314567,90 59,90 Z" id="sun-front" fill="#FFEC78" transform="translate(59.000000, 60.500000) rotate(-120.000000) translate(-59.000000, -60.500000) "></path>
+            </g>
+        </g>
+    </g>
+</svg>
