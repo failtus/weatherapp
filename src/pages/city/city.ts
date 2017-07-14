@@ -3,33 +3,22 @@ import { NavController, NavParams } from 'ionic-angular';
 import { FormBuilder, FormGroup, FormControl, Validator } from '@angular/forms';
 
 import { APIService } from '../../services/api.service';
-import { Geolocation } from '@ionic-native/geolocation';
+import { SharedService } from '../../services/shared.service';
 import { Observable } from 'rxjs/Objserable';
 import 'rxjs/add/operator/map';
 
-import { HomePage } from '../pages/home/home';
+import { SettingsPage } from '../settings/settings';
 
-/**
- * Generated class for the City page.
- *
- * See http://ionicframework.com/docs/components/#navigation for more info
- * on Ionic pages and navigation.
- */
 @Component({
   selector: 'page-city',
   templateUrl: 'city.html',
 })
 export class City {
 
-  cityNames:any = [
-    {
-      'key': '',
-      'locationName': ''
-    }
-  ];
   cityName:any;
+  newCity: any;
 
-  constructor(public navCtrl: NavController, public navParams: NavParams, private API: APIService) {
+  constructor(public navCtrl: NavController, public navParams: NavParams, private API: APIService, private sharedService: SharedService) {
   }
 
   ionViewDidLoad() {
@@ -37,6 +26,7 @@ export class City {
     console.log('ionViewDidLoad City');
   }
   callCity(){
+    // TODO: Add Auto Fill City
     // let query = this.cityName;
     // let weather = this.API.getCity(query);
     // weather.subscribe(weather =>
@@ -49,6 +39,17 @@ export class City {
     //  }
     //  , error => console.log("Error: ", error), () => console.log(this.cityNames));
     // console.log(this.cityName,this.cityNames);
+  }
+  addCity(city) {
+    this.sharedService
+		.getWeatherByCity(this.cityName)
+		.subscribe(weather => {
+			this.newCity = {'name': weather.name, 'id': weather.id};
+			console.log(this.newCity);
+      this.sharedService.setCities(this.newCity);
+      console.log('New City Added', this.newCity);
+      this.navCtrl.push(SettingsPage);
+		}, error => console.log("Error: ", error));
   }
 
 }

@@ -1,4 +1,17 @@
+rain-animation {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: 1;
+}
 page-home {
+  .scroll-content {
+    padding: 0 !important;
     .weather-card {
         margin: 0 auto;
         height: 100vh;
@@ -53,18 +66,18 @@ page-home {
                         color: #fff;
                         cursor: pointer;
                         .temp-type {
-                            font-size: 85px;
+                            font-size: 55px;
                         }
                     }
                     .temp-value {
                         display: inline-block;
-                        font-size: 85px;
+                        font-size: 55px;
                         font-weight: 600;
                         color: #fff;
                     }
                     .deg {
                         display: inline-block;
-                        font-size: 35px;
+                        font-size: 25px;
                         font-weight: 600;
                         color: #fff;
                         vertical-align: top;
@@ -145,7 +158,7 @@ page-home {
                 }
             }
         }
-        &.rain {
+        &.raining {
             .top {
                 background: url("http://img.freepik.com/free-vector/girl-with-umbrella_1325-5.jpg?size=338&ext=jpg") no-repeat;
                 background-size: cover;
@@ -174,4 +187,6 @@ page-home {
             }
         }
     }
+  }
+
 }

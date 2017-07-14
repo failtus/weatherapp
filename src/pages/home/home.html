@@ -4,21 +4,22 @@
         <p>{{currentWeather.Temperature.Metric.Value}}C</p>
     </div>-->
     <!-- 		Clear night -->
+    <rain-animation *ngIf= "weatherClass == 'raining'"></rain-animation>
     <div class="weather-card" [ngClass]="weatherClass">
         <div class="top">
             <div class="wrapper">
                 <div class="mynav">
-                    <a href="javascript:;"><span class="lnr lnr-cog"></span></a>
+                    <a><span class="lnr lnr-cog" (click)="openSetting()"></span></a>
                 </div>
-                <h1 class="heading">Clear night</h1>
-                <h3 class="location">Dhaka, Bangladesh</h3>
+                <h1 class="heading">{{currentWeather?.weather[0].description | capitalize}}</h1>
+                <h3 class="location">{{currentWeather?.name}}, {{currentWeather?.sys.country | toCountryName}}</h3>
                 <p class="temp" *ngIf="celcious">
-                    <span class="temp-value">{{currentWeather.main.temp}}</span>
+                    <span class="temp-value">{{currentWeather?.main.temp.toFixed(2)}}</span>
                     <span class="deg">0</span>
                     <a (click)="celcious = false"><span class="temp-type">C</span></a>
                 </p>
                 <p class="temp" *ngIf="!celcious">
-                    <span class="temp-value">{{currentWeather.main.temp | CelToFah}}</span>
+                    <span class="temp-value">{{currentWeather?.main.temp | CelToFah}}</span>
                     <span class="deg">0</span>
                     <a (click)="celcious = true"><span class="temp-type">F</span></a>
                 </p>

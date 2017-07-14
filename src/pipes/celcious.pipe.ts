@@ -5,6 +5,9 @@ import {Pipe, PipeTransform } from '@angular/core';
 })
 export class CelciousToFahrenheit implements PipeTransform{
   transform(value, args) {
-    return (value * (9/5)) + 32;
+    if (value) {
+      return ((value * (9/5)) + 32).toFixed(2);
+    } else
+    return value;   
   }
 }

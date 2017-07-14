@@ -1,9 +1,3 @@
-<!--
-  Generated template for the City page.
-
-  See http://ionicframework.com/docs/components/#navigation for more info on
-  Ionic pages and navigation.
--->
 <ion-header>
 
     <ion-navbar>
@@ -17,15 +11,5 @@
     <ion-item>
         <input type="text" placeholder="Enter Your City" [(ngModel)]="cityName" (change)="callCity()">
     </ion-item>
-    <div class="city-name">
-        <ion-list>
-            <ion-item>
-                <ion-select>
-                    <ion-option *ngFor="let item of cityNames" value="{{item.key}}">{{item.locationName}}</ion-option>
-                </ion-select>
-            </ion-item>
-        </ion-list>
-        <!--<p *ngFor="let item of cityNames">{{item.locationName}}</p>-->
-    </div>
-
+    <button ion-button full (click)="addCity()">Add city</button>
 </ion-content>
