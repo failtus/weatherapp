@@ -1,6 +1,6 @@
 import { Pipe, PipeTransform } from '@angular/core';
 
-@Pipe({name: 'capitalize'})
+@Pipe({name: 'capitalize', pure: false})
 export class CapitalizePipe implements PipeTransform {
   transform(value: string, args: string[]): any {
     if (!value) return value;

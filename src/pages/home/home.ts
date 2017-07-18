@@ -6,7 +6,9 @@ import { SharedService } from '../../services/shared.service';
 import { Geolocation } from '@ionic-native/geolocation';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
-import { SettingsPage } from '../settings/settings';
+import { Settings } from '../settings/settings';
+
+import * as $ from 'jquery';
 
 @Component({
 	selector: 'page-home',
@@ -46,16 +48,10 @@ export class HomePage implements OnInit {
 		.catch((error) => {
 			console.log('Error getting city', error);
 			this.initCall();
-		});;
+		});
 
 	}
 	ionViewDidEnter(){
-		this.sharedService
-		.getWeatherByCity(this.city.name)
-		.subscribe(weather => {
-			this.cityId = weather.id;
-			console.log(this.cityId);
-		}, error => console.log("Error: ", error));
 	}
 	initCall() {
 		this.geolocation.getCurrentPosition({ enableHighAccuracy: true}).then((resp) => {
@@ -68,7 +64,7 @@ export class HomePage implements OnInit {
 				console.log(weather);
 			}, error => console.log("Error: ", error));
 		}).catch((error) => {
-				this.navCtrl.push(SettingsPage);
+				this.navCtrl.push(Settings);
 				console.log('Error getting location', error);
 			});
 	}
@@ -108,8 +104,6 @@ export class HomePage implements OnInit {
 		    default:
 	        this.weatherClass = "cloudy";
 			}
-			this.storage.set('city', this.currentWeather.name);
-			console.log(this.currentWeather.name);
 		}
 
 	}
@@ -118,7 +112,12 @@ export class HomePage implements OnInit {
 			this.splashScreen.show();
 	}
 	openSetting() {
-		this.navCtrl.push(SettingsPage);
+		this.navCtrl.push(Settings);
+	}
+	onSwipe(){
+		let el = $('.bottom');
+		el.addClass('open');
+		console.log('i am swiped top', el);
 	}
 	fetchData(i){
 		// let weather = this.apiService.getWeatherInfo(this.locationKey);

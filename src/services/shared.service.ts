@@ -17,14 +17,14 @@ export class SharedService {
 
 
   constructor(public http: Http, private geolocation: Geolocation, private storage: Storage) {
-
+    this.storage.set('cities', this.cities);
   }
   getWeatherInfo(lat, lon) : Observable<any>{
-    return this.http.get(`${this.API_URL}/weather?lat=${lat+'&lon'+lon}&units=metric&appid=${this.ApiKey}`).map(res => res.json());
+    return this.http.get(`${this.API_URL}/weather?lat=${lat+'&lon='+lon}&units=metric&appid=${this.ApiKey}`).map(res => res.json());
 
   }
   getWeatherByCity(city) : Observable<any> {
-    return this.http.get(`http://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${this.ApiKey}`)
+    return this.http.get(`http://api.openweathermap.org/data/2.5/weather?q=${city.trim()}&units=metric&appid=${this.ApiKey}`)
     .map(res => res.json());
   }
 
@@ -33,6 +33,7 @@ export class SharedService {
   }
   setCities(city){
     this.cities.push(city);
+    this.storage.set('cities', this.cities);
     this.setCurrentCity(city.id);
   }
   setCurrentCity(id){

@@ -3,12 +3,12 @@ import { ErrorHandler, NgModule } from '@angular/core';
 import { HttpModule } from '@angular/http';
 import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 import { IonicStorageModule } from '@ionic/storage';
-import { SettingsPageModule } from '../pages/settings/settings.module';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { StatusBar } from '@ionic-native/status-bar';
 
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
+import { Settings } from '../pages/settings/settings';
 import { City } from '../pages/city/city';
 import { RainComponent } from '../component/rain.component';
 
@@ -25,6 +25,7 @@ import { CountryCodePipe } from '../pipes/countryCodes.pipe';
     MyApp,
     HomePage,
     City,
+    Settings,
     RainComponent,
     CelciousToFahrenheit,
     CapitalizePipe,
@@ -33,7 +34,6 @@ import { CountryCodePipe } from '../pipes/countryCodes.pipe';
   imports: [
     BrowserModule,
     HttpModule,
-    SettingsPageModule,
     IonicModule.forRoot(MyApp),
     IonicStorageModule.forRoot()
   ],
@@ -41,7 +41,8 @@ import { CountryCodePipe } from '../pipes/countryCodes.pipe';
   entryComponents: [
     MyApp,
     HomePage,
-    City
+    City,
+    Settings
   ],
   providers: [
     StatusBar,

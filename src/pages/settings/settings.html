@@ -1,16 +1,28 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title>settings</ion-title>
+    <ion-title>Settings</ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-    <h2 style="text-align:center">Select An City</h2>
-    <ion-list>
-      <button ion-item *ngFor="let city of cities" (click)="showConfirm(city.id)">
-        {{ city?.name | uppercase }}
-      </button>
-    </ion-list>
+  <ion-list>
+    <ion-list-header>
+      Select An City
+    </ion-list-header>
+    <ion-item-sliding #item *ngFor="let city of cities">
+      <ion-item (click)="showConfirm(city.id)" class="cityname">
+        {{ city?.name }}
+      </ion-item>
+      <ion-item-options side="left">
+        <button ion-button>Unread</button>
+      </ion-item-options>
+
+      <ion-item-options side="right">
+        <button ion-button>Select</button>
+        <button ion-button color="danger">Delete</button>
+      </ion-item-options>
+    </ion-item-sliding>
+  </ion-list>
     <button ion-button block icon-left (click)="addCity()"><ion-icon name="add"></ion-icon> Add City</button>
 </ion-content>

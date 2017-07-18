@@ -8,8 +8,14 @@
 
 
 <ion-content padding>
+  <ion-list>
     <ion-item>
-        <input type="text" placeholder="Enter Your City" [(ngModel)]="cityName" (change)="callCity()">
+      <ion-label floating>Enter Your City</ion-label>
+      <ion-input type="text" [(ngModel)]="cityName" (change)="callCity()"></ion-input>
     </ion-item>
+    <!-- <ion-item>
+        <input type="text" placeholder="Enter Your City" [(ngModel)]="cityName" (change)="callCity()">
+    </ion-item> -->
     <button ion-button full (click)="addCity()">Add city</button>
+  </ion-list>
 </ion-content>

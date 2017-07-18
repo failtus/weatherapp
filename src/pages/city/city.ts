@@ -7,7 +7,7 @@ import { SharedService } from '../../services/shared.service';
 import { Observable } from 'rxjs/Objserable';
 import 'rxjs/add/operator/map';
 
-import { SettingsPage } from '../settings/settings';
+import { Settings } from '../settings/settings';
 
 @Component({
   selector: 'page-city',
@@ -48,7 +48,7 @@ export class City {
 			console.log(this.newCity);
       this.sharedService.setCities(this.newCity);
       console.log('New City Added', this.newCity);
-      this.navCtrl.push(SettingsPage);
+      this.navCtrl.push(Settings);
 		}, error => console.log("Error: ", error));
   }
 

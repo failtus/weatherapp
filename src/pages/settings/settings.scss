@@ -1,3 +1,9 @@
 page-settings {
+  background: blue;
+  .city-name {
+    ion-label{
+      text-transform: capitalize;
+    }
 
+  }
 }

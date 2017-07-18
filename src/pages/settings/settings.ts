@@ -6,33 +6,29 @@ import { Storage } from '@ionic/storage';
 import { HomePage } from '../home/home';
 import { City } from '../city/city';
 
-
-/**
- * Generated class for the SettingsPage page.
- *
- * See http://ionicframework.com/docs/components/#navigation for more info
- * on Ionic pages and navigation.
- */
-@IonicPage()
 @Component({
   selector: 'page-settings',
   templateUrl: 'settings.html',
 })
-export class SettingsPage {
+export class Settings {
   cities = [];
 
   constructor(public navCtrl: NavController, public navParams: NavParams, public alertCtrl: AlertController, private storage: Storage, private sharedService: SharedService) {
   }
 
   ionViewWillEnter() {
+    this.storage.get('cities')
+		.then((val)=> {
+			this.cities = val;
+			console.log(val);
+		})
+		.catch((error) => {
+			console.log('Error getting city', error);
+		});
     if (this.storage.get('currentCity') !== undefined && null) {
       this.navCtrl.push(HomePage);
     }
-    this.cities = this.sharedService.getCities();
-    console.log(this.cities);
-  }
-  ionViewDidLoad() {
-    console.log('ionViewDidLoad SettingsPage');
+
   }
   setCurrentCity(id){
     this.sharedService.setCurrentCity(id);

@@ -21,7 +21,7 @@ page-home {
         overflow: hidden;
         .top {
             position: relative;
-            height: 570px;
+            height: 100vh;
             width: 100%;
             overflow: hidden;
             background: url("https://s-media-cache-ak0.pinimg.com/564x/cf/1e/c4/cf1ec4b0c96e59657a46867a91bb0d1e.jpg") no-repeat;
@@ -98,7 +98,18 @@ page-home {
         }
         .bottom {
             padding: 0 30px;
-            background: #fff;
+            background: rgba(254,254,254,0);
+            background: -moz-linear-gradient(top, rgba(254,254,254,0) 0%, rgba(254,254,254,0.37) 37%, rgba(255,255,255,1) 100%);
+            background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(254,254,254,0)), color-stop(37%, rgba(254,254,254,0.37)), color-stop(100%, rgba(255,255,255,1)));
+            background: -webkit-linear-gradient(top, rgba(254,254,254,0) 0%, rgba(254,254,254,0.37) 37%, rgba(255,255,255,1) 100%);
+            background: -o-linear-gradient(top, rgba(254,254,254,0) 0%, rgba(254,254,254,0.37) 37%, rgba(255,255,255,1) 100%);
+            background: -ms-linear-gradient(top, rgba(254,254,254,0) 0%, rgba(254,254,254,0.37) 37%, rgba(255,255,255,1) 100%);
+            background: linear-gradient(to bottom, rgba(254,254,254,0) 0%, rgba(254,254,254,0.37) 37%, rgba(255,255,255,1) 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefe', endColorstr='#ffffff', GradientType=0 );
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            z-index: 2;
             .wrapper {
                 .forecast {
                     overflow: hidden;
