@@ -1,10 +1,12 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams, AlertController } from 'ionic-angular';
+import { NavController, NavParams, AlertController } from 'ionic-angular';
 import { SharedService } from '../../services/shared.service';
 import { Storage } from '@ionic/storage';
 
 import { HomePage } from '../home/home';
 import { City } from '../city/city';
+
+declare const localStorage:any;
 
 @Component({
   selector: 'page-settings',
@@ -12,26 +14,31 @@ import { City } from '../city/city';
 })
 export class Settings {
   cities = [];
-
   constructor(public navCtrl: NavController, public navParams: NavParams, public alertCtrl: AlertController, private storage: Storage, private sharedService: SharedService) {
   }
 
   ionViewWillEnter() {
-    this.storage.get('cities')
-		.then((val)=> {
-			this.cities = val;
-			console.log(val);
-		})
-		.catch((error) => {
-			console.log('Error getting city', error);
-		});
-    if (this.storage.get('currentCity') !== undefined && null) {
+    // this.storage.get('cities')
+		// .then((val)=> {
+		// 	this.cities = val;
+		// 	console.log(val);
+		// })
+		// .catch((error) => {
+		// 	console.log('Error getting city', error);
+		// });
+    // if (this.storage.get('currentCity') !== undefined && null) {
+    //   this.navCtrl.push(HomePage);
+    // }
+
+    this.cities = JSON.parse(localStorage.getItem('cities'));
+    if (localStorage.getItem('currentCity') !== undefined && null) {
       this.navCtrl.push(HomePage);
     }
 
   }
   setCurrentCity(id){
     this.sharedService.setCurrentCity(id);
+    localStorage.setItem('CityList', JSON.stringify(this.sharedService.currentCity));
     this.navCtrl.push(HomePage);
   }
   addCity(){

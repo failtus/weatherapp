@@ -9,6 +9,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { Settings } from '../settings/settings';
 
 import * as $ from 'jquery';
+declare const localStorage:any;
 
 @Component({
 	selector: 'page-home',
@@ -28,27 +29,40 @@ export class HomePage implements OnInit {
 
 	}
 	ionViewWillEnter(){
-		this.storage.get('currentCity')
-		.then((val)=> {
-			this.city = val;
-			console.log(val);
-			if(this.city.name) {
-				this.sharedService
-				.getWeatherByCity(this.city.name)
+		this.city = JSON.parse(localStorage.getItem('currentCity'));
+		if (this.city){
+			this.sharedService.getWeatherByCity(this.city.name)
 				.subscribe(weather => {
 					this.currentWeather = weather;
 					this.checkWeather();
 					this.splashScreen.hide();
 					console.log(weather);
-				}, error => console.log("Error: ", error));
-			} else {
-				return
-			}
-		})
-		.catch((error) => {
-			console.log('Error getting city', error);
+				}, error => console.log('Error', error));
+		} else {
 			this.initCall();
-		});
+		}
+
+		// this.storage.get('currentCity')
+		// .then((val)=> {
+		// 	this.city = val;
+		// 	console.log(val);
+		// 	if(this.city.name) {
+		// 		this.sharedService
+		// 		.getWeatherByCity(this.city.name)
+		// 		.subscribe(weather => {
+		// 			this.currentWeather = weather;
+		// 			this.checkWeather();
+		// 			this.splashScreen.hide();
+		// 			console.log(weather);
+		// 		}, error => console.log("Error: ", error));
+		// 	} else {
+		// 		return
+		// 	}
+		// })
+		// .catch((error) => {
+		// 	console.log('Error getting city', error);
+		// 	this.initCall();
+		// });
 
 	}
 	ionViewDidEnter(){

@@ -12,7 +12,7 @@
     </ion-list-header>
     <ion-item-sliding #item *ngFor="let city of cities">
       <ion-item (click)="showConfirm(city.id)" class="cityname">
-        {{ city?.name }}
+        {{ city?.name | capitalize }}
       </ion-item>
       <ion-item-options side="left">
         <button ion-button>Unread</button>
